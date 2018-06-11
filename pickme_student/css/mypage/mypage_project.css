@@ -1,0 +1,58 @@
+.project_cover{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.project_cover::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.project_el{
+  width: 28%;
+  height: 220px;
+  float: left;
+  box-shadow: 0px 3px 10px rgb(113, 113, 113);
+  border-radius: 15px;
+  text-align: center;
+  margin: 30px 30.015px;
+}
+
+.project_title{
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 35px;
+}
+
+.project_content{
+  color: #616161;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.project_role{
+  color: #3498db;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 20px;  
+}
+
+.project_edit_btn{
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.project_edit_btn button{
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 15px;
+  height: 45px;
+  width: 220px;
+  cursor: pointer;
+}

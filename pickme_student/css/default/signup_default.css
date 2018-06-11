@@ -1,0 +1,171 @@
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'NanumSquare', sans-serif;
+}
+
+input {
+  font-family: 'NanumSquare', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  display: block;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+input[type=text] {
+  margin: 0;
+  outline: none;
+}
+
+input[type=text]::placeholder,
+input[type=password]::placeholder {
+  color: #9E9E9E;
+}
+
+input[type=button] {
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  min-height: 974px;
+  background-color: #fafafa;
+}
+
+#side-menu {
+  width: 200px;
+  height: 100%;
+  float: left;
+  background-color: #3498db;
+}
+
+#content {
+  width: auto;
+  height: 100%;
+  margin-left: 600px;
+}
+
+#nav {
+  width: 200px;
+  height: 100%;
+  float: left;
+  background-color: #2980b9;
+}
+
+#user-menu {
+  width: auto;
+  height: 100%;
+  background-color: inherit;
+  margin-left: 200px;
+}
+
+#nav-ul {
+  display: block;
+}
+
+#nav-ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav-li {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid #257DB4;
+  cursor: pointer;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.nav-li#main-logo {
+  background-color: #fff;
+  background-image: url(../../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+#content {
+  position: relative;
+  width: auto;
+  height: 100%;
+  margin-left: 200px;
+}
+
+#signup-content {
+  width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-top: 65px;
+}
+
+#history-back {
+  position: absolute;
+  width: 124px;
+  height: 28px;
+  background-image: url(../../img/ic_back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 47px;
+  left: 64px;
+  cursor: pointer;
+}
+
+#signup-logo {
+  width: 250.077px;
+  height: 69.344px;
+  background-image: url(../../img/ic_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+#signup-title {
+  widows: 100%;
+  text-align: center;
+  font-size: 28px;
+}
+
+#signup-subtitle {
+  font-size: 18px;
+  color: #616161;
+}
+
+.signup-btn {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 50px;
+  background-color: #3199DC;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+}

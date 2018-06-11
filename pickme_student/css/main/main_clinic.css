@@ -1,0 +1,103 @@
+#main_clinic {
+  width: 1150px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.main_clinic-el {
+  display: block;
+  float: left;
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 3px 10px rgb(113, 113, 113);
+  border-radius: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#middle-el {
+  margin: 0px 46px;
+}
+
+.clinic-ic {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 58px;
+  margin-bottom: 39px;
+}
+
+#resume-ic {
+  background-image: url(../../img/ic_clinic_resume.png);
+}
+
+#introduction-ic {
+  background-image: url(../../img/ic_clinic_introduction.png);
+}
+
+#consultation-ic {
+  background-image: url(../../img/ic_clinic_consulting.png);
+}
+
+.string-cover {
+  width: 100%;
+  height: 100px;
+}
+
+.clinic-string {
+  display: inline-block;
+  width: 100%;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.clinic-sub-string {
+  display: inline-block;
+  width: 100%;
+  font-size: 17px;
+  font-weight: bold;
+  color: #616161;
+  margin-top: 31px;
+}
+
+.clinic-btn-cover {
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 42px;
+  display: none;
+}
+
+.clinic-btn {
+  width: 120px;
+  height: 46px;
+  background-color: #3199DC;
+  border: none;
+  border-radius: 25px;
+  padding: 0;
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.clinic-btn:first-child {
+  float: left;
+}
+
+.clinic-btn:last-child {
+  float: right;
+}
+
+.main_clinic-el:hover{
+  transform:scale(1.05);
+}
+
+.main_clinic-el:hover .clinic-sub-string {
+  display: none;
+}
+
+.main_clinic-el:hover .clinic-btn-cover {
+  display: block;
+}

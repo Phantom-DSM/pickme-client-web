@@ -1,0 +1,194 @@
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'NanumSquare', sans-serif;
+}
+
+input,
+button {
+  font-family: 'NanumSquare', sans-serif;
+}
+
+textarea{
+  font-family: 'NanumSquare', sans-serif;  
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav {
+  display: block;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+input[type=text], input[type=password] {
+  margin: 0;
+  outline: none;
+}
+
+input[type=button], button{
+  cursor: pointer;
+}
+
+#wrapper {
+  width: 100%;
+  min-height: 974px;
+  background-color: #fafafa;
+}
+
+#side-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 600px;
+  height: 100%;
+  background-color: #3498db;
+  z-index: 1;
+}
+
+#content {
+  width: auto;
+  height: 100%;
+  margin-left: 600px;
+}
+
+#nav {
+  width: 200px;
+  height: 100%;
+  float: left;
+  background-color: #2980b9;
+}
+
+#user-menu {
+  width: auto;
+  height: 100%;
+  background-color: inherit;
+  margin-left: 200px;
+}
+
+#nav-ul {
+  display: block;
+}
+
+#nav-ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav-li {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid #257DB4;
+  cursor: pointer;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.nav-li#main-logo {
+  background-color: #fff;
+  background-image: url(../../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+#contact-company {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  padding: 90px 0px;
+  ;
+}
+
+#contact-company span {
+  font-size: 53px;
+  font-weight: bolder;
+  margin-right: 15px;
+}
+
+#user-menu-el {
+  width: 100%;
+}
+
+#user-menu-el::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.user-menu-li {
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 41px;
+  margin-bottom: 29px;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.menu-ic {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 42px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#ic-login {
+  background-image: url(../../img/ic_login.png);
+}
+
+#ic-signup {
+  background-image: url(../../img/ic_signup.png);
+}
+
+#ic-mypage {
+  background-image: url(../../img/ic_mypage.png);
+}
+
+.user-menu-li:hover {
+  background-color: #fff;
+  color: #3498db;
+}
+
+.user-menu-li:hover #ic-login {
+  background-image: url(../../img/ic_login_hover.png);
+}
+
+.user-menu-li:hover #ic-signup {
+  background-image: url(../../img/ic_signup_hover.png);
+}
+
+.user-menu-li:hover #ic-mypage {
+  background-image: url(../../img/ic_mypage_hover.png);
+}
+
+/*default*/

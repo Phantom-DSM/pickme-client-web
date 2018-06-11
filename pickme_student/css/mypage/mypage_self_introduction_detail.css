@@ -1,0 +1,77 @@
+.intro_detail{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.intro_title {
+  font-weight: bold;
+  font-size: 19px;
+  color: #3498db;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.intro_input{
+  width: 100%;
+  height: 45px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.intro_textarea{  
+  width: 500px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px 15px;
+  line-height: 25px;
+}
+
+.intro_date{
+  text-align: right;
+  margin-top: 30px;
+  color: #616161;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.intro_btns{
+  width: 100%;
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+#btn_done{
+  border-radius: 15px;
+  padding: 0px 80px;
+  margin-right: 150px;
+}
+
+
+.intro_btn{
+  background-color: #3790CC;
+  border-radius: 5px;
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  padding: 0px 25px;
+}
+
+.intro_btn_option{
+  float: right;
+  margin-right: 50px;
+}
+
+.intro_btn_option button{
+  margin-left: 10px;
+  margin-right: 10px;
+}

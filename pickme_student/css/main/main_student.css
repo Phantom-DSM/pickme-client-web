@@ -1,0 +1,106 @@
+#main_student {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow-y: scroll;
+}
+
+#main_student::-webkit-scrollbar {
+  width: 18px;
+}
+
+#main_student::-webkit-scrollbar-track {
+  background-color: #E1E1E1;
+  border-radius: 10px;
+}
+
+#main_student::-webkit-scrollbar-thumb {
+  background-color: #3096D7;
+  border-radius: 10px;
+}
+
+.student_el {
+  width: 320px;
+  height: 470px;
+  background-color: #fff;
+  box-shadow: 0px 3px 10px rgb(113, 113, 113);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.student_basic {
+  width: 100%;
+  height: 76px;
+  margin-top: 30px;
+}
+
+.student_photo {
+  width: 76px;
+  height: 100%;
+  float: left;
+  border: 3px solid #EAEAEA;
+  border-radius: 100%;
+  margin-left: 40px;
+}
+
+
+.student_name_cover {
+  width: auto;
+  height: 100%;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 17px;
+}
+
+.student_name {
+  font-weight: bolder;
+}
+
+.student_income #income {
+  color: #939393;
+  margin-left: 10px;
+}
+
+.student_income {
+  color: #000;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.student_major {
+  color: #000;
+  width: 80%;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.student_major span {
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.student_major_el {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.major_el {
+  background-color: #3199DC;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}

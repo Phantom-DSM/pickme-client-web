@@ -1,0 +1,38 @@
+.modal-menu-cover {
+  width: 140px;
+  height: 450px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.modal-menu-cover-2 {
+  width: 140px;
+  height: 300px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 135px;
+}
+
+.modal-menu-photo{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.modal-menu-photo img{
+  width: 100%;
+  height: 100%;
+}
+
+.modal-menu-description{
+  margin-top: 15px;
+  text-align: center;
+}

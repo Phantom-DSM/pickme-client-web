@@ -1,0 +1,26 @@
+#ic-signup-done {
+  width: 120px;
+  height: 116px;
+  margin: 0 auto;
+  margin-top: 137px;
+  background-image: url(../../img/ic_done.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#signup-title {
+  margin-top: 63px;
+}
+  
+#signup-subtitle {
+  margin-top: 25px;
+}
+
+#signup-done-btn-cover{
+  width: 100%;
+  margin-top: 160px;
+}
+
+#gotomypage{
+  margin-top: 30px;
+}

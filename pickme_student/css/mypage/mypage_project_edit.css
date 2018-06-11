@@ -1,0 +1,153 @@
+.project_edit {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.project_edit > div > div {
+  width: 100%;
+}
+
+.project_title {
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.project_sub_title {
+  font-weight: bold;
+  font-size: 19px;
+  color: #3498db;
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+}
+
+.project_full_input {
+  width: 450px;
+  height: 45px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.project_term {
+  height: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.term_title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-right: 30px;
+}
+
+.project_select {
+  width: 70px;
+  height: 45px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  padding-left: 5px;
+  margin: 0px 10px;
+}
+
+
+
+.team_con_3 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.team_con_3 button {
+  padding: 0px 70px;
+}
+
+.basic_con_3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.basic_con_3::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.left {
+  float: left;
+  margin-right: 15px;
+}
+
+.project_input {
+  height: 45px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.team_con_2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.project_btn {
+  background-color: #3790CC;
+  border-radius: 20px;
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  padding: 0px 40px;
+}
+
+.tech_flex li .project_btn {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 20px;
+  height: 40px;
+  color: #3790CC;
+  line-height: 35px;
+  text-align: center;
+  border: 3px solid #3790CC;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 0px 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tech_flex li:last-child .project_btn {
+  background-color: #3790CC;
+  color: #fff;
+  padding: 0px 40px;
+}
+
+.project_textarea {
+  width: 500px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px 15px;
+  line-height: 25px;
+}
+
+.project_done_btn {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.project_done_btn button {
+  padding: 0px 70px;
+}

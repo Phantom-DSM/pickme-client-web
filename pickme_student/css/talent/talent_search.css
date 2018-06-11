@@ -1,0 +1,138 @@
+#talent_search{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+#talent_search_result {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.talent_el {
+  width: 320px;
+  height: 470px;
+  background-color: #fff;
+  box-shadow: 0px 3px 10px rgb(113, 113, 113);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.talent_basic {
+  width: 100%;
+  height: 76px;
+  margin-top: 30px;
+}
+
+.talent_photo {
+  width: 76px;
+  height: 100%;
+  float: left;
+  border: 3px solid #EAEAEA;
+  border-radius: 100%;
+  margin-left: 40px;
+}
+
+
+.talent_name_cover {
+  width: auto;
+  height: 100%;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 17px;
+}
+
+.talent_name {
+  font-weight: bolder;
+}
+
+.talent_income #income {
+  color: #939393;
+  margin-left: 10px;
+}
+
+.talent_income {
+  color: #000;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.talent_major {
+  color: #000;
+  width: 80%;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.talent_major span {
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.talent_major_el {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.major_el {
+  background-color: #3199DC;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+#talent_search_title{
+  color: #3199DC;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.talent_search_el{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.talent_long_input{
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid #ababab;
+  font-size: 17px;
+  width: 48%;
+  padding-left: 15px;
+}
+
+.talent_short_input{
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid #ababab;
+  font-size: 17px;
+  width: 22%;
+  padding-left: 15px;
+}
+
+.talent_button{
+  width: 180px;
+  color: #fff;
+  background-color: #3199DC;
+  border: none;
+  font-size: 17px;
+  border-radius: 5px;
+}

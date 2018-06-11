@@ -1,0 +1,152 @@
+#modal {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  position: relative;
+  width: 500px;
+  height: 650px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-top: 65px;
+  margin-top: 5%;
+}
+
+#close {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  cursor: pointer;
+}
+
+#modal-logo {
+  width: 250px;
+  height: 70px;
+  background-image: url(../../img/ic_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+
+.modal-form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.modal-form::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.form-group {
+  width: 100%;
+  height: 60px;
+}
+
+#form-group-id {
+  margin-bottom: 32px;
+}
+
+#form-group-passwd {
+  margin-bottom: 29px;
+}
+
+.form-group .form-input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #9E9E9E;
+  border-radius: 8px;
+  font-size: 19px;
+  padding-left: 15px;
+}
+
+.form-group .form-input:focus {
+  border: 2px solid #3498DB;
+}
+
+.form-btn-cover {
+  width: 400px;
+  height: 60px;
+  margin-bottom: 27px;
+}
+
+.form-btn-cover .form-btn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #3498DB;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+#auto-check-cover {
+  float: left;
+}
+
+#auto-login {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+#auto-check-cover label {
+  display: block;
+  float: left;
+  font-size: 17px;
+  font-weight: bold;
+  color: #616161;
+}
+
+#form-option {
+  text-align: right;
+  font-size: 17px;
+  font-weight: bold;
+  color: #616161;
+  padding: 0px 30px;
+}
+
+#form-option a {
+  color: #616161;
+}
+
+#modal-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #E0E0E0;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#no-signup{
+  display: inline-block;
+  font-size: 17px;
+  color: #9E9E9E;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+#signup{
+  display: inline-block;
+  font-size: 17px;
+  color: #3498DB;
+  font-weight: bold;
+  padding-left: 20px;
+}

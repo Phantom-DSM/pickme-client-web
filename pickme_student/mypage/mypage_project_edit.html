@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>pickme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="../css/default/default.css">
+  <link rel="stylesheet" href="../css/default/mypage_default.css">
+  <link rel="stylesheet" href="../css/mypage/mypage_project_edit.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="side-menu">
+      <nav id="nav">
+        <ul id="nav-ul">
+          <li class="nav-li" id="main-logo"></li>
+          <li class="nav-li">소개</li>
+          <li class="nav-li">인재검색</li>
+          <li class="nav-li">취업</li>
+          <li class="nav-li">상담 / 클리닉</li>
+          <li class="nav-li">고객센터</li>
+        </ul>
+      </nav>
+      <div id="user-menu">
+        <div id="contact-company">
+          <span>1264</span>개<br><br>의 회사와 컨택중입니다.
+        </div>
+        <ul id="user-menu-el">
+          <li class="user-menu-li">
+            <div class="menu-ic" id="ic-login"></div>
+            <span>로그인</span>
+          </li>
+          <li class="user-menu-li">
+            <div class="menu-ic" id="ic-signup"></div>
+            <span>회원가입</span>
+          </li>
+          <li class="user-menu-li">
+            <div class="menu-ic" id="ic-mypage"></div>
+            <span>내정보</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div class="mypage_cover">
+        <div class="profile_header">
+          <div class="profile_top_photo"></div>
+        </div>
+        <div class="profile_top_basic">
+          <div id="name">윤찬명</div>
+          <div id="email">yunth1228@naver.com</div>
+          <div id="tel">010-5514-6224</div>
+        </div>
+        <ul class="profile_navigation">
+          <li><a href="">프로필</a></li>
+          <li><a href="">이력서</a></li>
+          <li class="active"><a href="">프로젝트</a></li>
+          <li><a href="">자기소개서</a></li>
+          <li><a href="">회원탈퇴</a></li>
+        </ul>
+        <div class="project_edit">
+          <div class="basic_info">
+            <div class="project_title">기본정보</div>
+            <div class="basic_con_1">
+              <div class="project_sub_title">프로젝트명</div>
+              <input type="text" class="project_full_input" placeholder="프로젝트명">
+            </div>
+            <div class="basic_con_2">
+              <div class="project_sub_title">개발기간</div>
+              <div class="project_term">
+                <span class="term_title">시작일</span>
+                <select name="" id="" class="project_select">
+              <option value="2000">2000</option>
+            </select>년
+                <select name="" id="" class="project_select">
+              <option value="7">7</option>
+            </select>월
+                <select name="" id="" class="project_select">
+              <option value="17">17</option>
+            </select>일
+              </div>
+              <div class="project_term">
+                <span class="term_title">종료일</span>
+                <select name="" id="" class="project_select">
+              <option value="2000">2000</option>
+            </select>년
+                <select name="" id="" class="project_select">
+              <option value="7">7</option>
+            </select>월
+                <select name="" id="" class="project_select">
+              <option value="17">17</option>
+            </select>일
+              </div>
+            </div>
+            <div class="basic_con_3">
+              <div class="left">
+                <div class="project_sub_title">인원</div>
+                <input type="text" class="project_input" placeholder="총 참여 인원" style="width: 120px; margin-right: 1px;">명
+              </div>
+              <div class="left">
+                <div class="project_sub_title">역할</div>
+                <input type="text" class="project_input" placeholder="본인의 역할을 작성하세요
+              " style="width: 250px">
+              </div>
+            </div>
+            <div class="basic_con_4">
+              <div class="project_sub_title">한 줄 소개</div>
+              <input type="text" class="project_full_input" placeholder="프로젝트 한 줄 소개">
+            </div>
+          </div>
+          <div class="project_team">
+            <div class="project_title">프로젝트 팀</div>
+            <div class="team_con_1">
+              <div class="project_sub_title">팀명</div>
+              <input type="text" class="project_full_input" placeholder="프로젝트 팀명">
+            </div>
+            <div class="team_con_2">
+              <div class="left">
+                <div class="project_sub_title">이름</div>
+                <input type="text" class="project_input" placeholder="이름" style="width: 120px">
+              </div>
+              <div class="left">
+                <div class="project_sub_title">역할</div>
+                <input type="text" class="project_input" placeholder="역할을 작성하세요" style="width: 250px">
+              </div>
+            </div>
+            <div class="team_con_3">
+              <button class="project_btn">+ 팀원 추가</button>
+            </div>
+          </div>
+          <div class="project_tech">
+            <div class="project_title">기술 스택</div>
+            <ul class="tech_flex">
+              <li>
+                <div class="project_btn">Node-js</div>
+              </li>
+              <li>
+                <div class="project_btn">Java</div>
+              </li>
+              <li>
+                <div class="project_btn">Java</div>
+              </li>
+              <li>
+                <div class="project_btn">Java</div>
+              </li>
+              <li>
+                <div class="project_btn">+ 추가</div>
+              </li>
+            </ul>
+          </div>
+          <div class="project_summary">
+            <div class="project_title">개요 (개발 목표)</div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="프로젝트 개요및 개발 목표를 작성하세요" class="project_textarea"></textarea>
+          </div>
+          <div class="project_">
+            <div class="project_title">개발 내용</div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="프로젝트에 대한 개발 내용을 작성하세요" class="project_textarea"></textarea>
+          </div>
+          <div class="project_content">
+            <div class="project_title">기대효과</div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="프로젝트의 기대효과를 작성하세요" class="project_textarea"></textarea>
+          </div>
+          <div class="project_done_btn">
+            <button class="project_btn">편집 완료</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

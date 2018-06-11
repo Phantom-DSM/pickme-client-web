@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>pickme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="../css/default/main_default.css">
+  <link rel="stylesheet" href="../css/main/main_clinic.css">
+  <link rel="stylesheet" href="../css/main/main_login.css"> </head>
+
+<body>
+  <div id="wrapper">
+    <div id="side-menu">
+      <nav id="nav">
+        <ul id="nav-ul">
+          <li class="nav-li" id="main-logo"></li>
+          <li class="nav-li">소개</li>
+          <li class="nav-li">인재검색</li>
+          <li class="nav-li">취업</li>
+          <li class="nav-li">상담 / 클리닉</li>
+          <li class="nav-li">고객센터</li>
+        </ul>
+      </nav>
+      <div id="user-menu">
+        <div id="contact-company"> <span>1264</span>개
+          <br>
+          <br>의 회사와 컨택중입니다. </div>
+        <ul id="user-menu-el">
+          <li class="user-menu-li">
+            <div class="menu-ic" id="ic-login"></div> <span>로그인</span> </li>
+          <li class="user-menu-li">
+            <div class="menu-ic" id="ic-signup"></div> <span>회원가입</span> </li>
+          <li class="user-menu-li">
+            <div class="menu-ic" id="ic-mypage"></div> <span>내정보</span> </li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div id="company-list">
+        <div class="hover-scroll" id="left-btn"></div>
+        <div class="hover-scroll" id="right-btn"></div>
+        <ul id="company-list-ul">
+          <li class="company-list-li" id="company-1"><span>네이버</span></li>
+          <li class="company-list-li" id="company-2"><span>네이버</span></li>
+          <li class="company-list-li" id="company-3"><span>네이버</span></li>
+          <li class="company-list-li" id="company-4"><span>네이버</span></li>
+          <li class="company-list-li" id="company-5"><span>네이버</span></li>
+        </ul>
+      </div>
+      <ul id="main-menu-ul">
+        <li class="main-menu-li">채용공고</li>
+        <li class="main-menu-li">회사목록</li>
+        <li class="main-menu-li">인재목록</li>
+        <li class="main-menu-li active">클리닉</li>
+      </ul>
+      <div id="main_clinic">
+        <div class="main_clinic-el">
+          <div class="clinic-ic" id="resume-ic"></div>
+          <div class="string-cover"> <span class="clinic-string">이력서 클리닉</span> <span class="clinic-sub-string">선생님께 이력서를 보여드리고<br>피드백을 신청합니다.</span>
+            <div class="clinic-btn-cover">
+              <input type="button" value="신청" class="clinic-btn">
+              <input type="button" value="내역" class="clinic-btn"> </div>
+          </div>
+        </div>
+        <div class="main_clinic-el" id="middle-el">
+          <div class="clinic-ic" id="introduction-ic"></div>
+          <div class="string-cover"> <span class="clinic-string">자기소개서 클리닉</span> <span class="clinic-sub-string">선생님께 자기소개서를<br>보여드리고 피드백을 신청합니다.</span>
+            <div class="clinic-btn-cover">
+              <input type="button" value="신청" class="clinic-btn">
+              <input type="button" value="내역" class="clinic-btn"> </div>
+          </div>
+        </div>
+        <div class="main_clinic-el">
+          <div class="clinic-ic" id="consultation-ic"></div>
+          <div class="string-cover"> <span class="clinic-string">상담 신청하기</span> <span class="clinic-sub-string">온라인으로 상담 일정을 보고<br>신청을 진행합니다.</span>
+            <div class="clinic-btn-cover">
+              <input type="button" value="신청" class="clinic-btn">
+              <input type="button" value="내역" class="clinic-btn"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal">
+    <div class="modal-content">
+      <span id="close"><img src="./img/ic_exit.png" alt=""></span>
+      <div id="modal-logo"></div>
+      <form class="modal-form" action="">
+        <div class="form-group" id="form-group-id">
+          <input type="text" class="form-input" placeholder="아이디" name="id">
+        </div>
+        <div class="form-group" id="form-group-passwd">
+          <input type="password" class="form-input" placeholder="비밀번호" name="password">
+        </div>
+        <div class="form-btn-cover">
+          <input type="button" class="form-btn" value="로그인">
+        </div>
+        <div id="form-option">
+          <div id="auto-check-cover">
+            <input type="checkbox" id="auto-login" name="auto-login">
+            <label for="auto-login">자동로그인</label>
+          </div>
+          <a href="#">비밀번호찾기</a>
+        </div>
+      </form>
+      <div id="modal-footer">
+        <a href="#" id="no-signup">아직 계정이 없으신가요?</a>
+        <a href="#" id="signup">회원가입</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

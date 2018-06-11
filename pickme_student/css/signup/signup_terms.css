@@ -1,0 +1,69 @@
+#signup-title {
+  margin-top: 63px;
+}
+
+#signup-subtitle {
+  margin-top: 15px;
+}
+
+.signup-term-div {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 70px;
+  border: 1px solid #BCBCBC;
+  border-radius: 8px;
+}
+
+.term-title-cover {
+  width: 100%;
+  height: 82px;
+  line-height: 82px;
+  font-size: 19px;
+  font-weight: bold;
+  border-bottom: 1px solid #BCBCBC;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.term-title-cover::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.term-ok-div {
+  width: 100px;
+  float: right;
+  text-align: right;
+}
+
+.term-content {
+  width: 100%;
+  height: 310px;
+  padding: 22px 22px 22px 22px;
+  font-size: 19px;
+  overflow-y: scroll
+}
+
+.term-content::-webkit-scrollbar {
+  width: 17px;
+}
+
+.term-content::-webkit-scrollbar-track {
+  background: #E0E0E0;
+  border-radius: 10px;
+}
+
+.term-content::-webkit-scrollbar-thumb {
+  background: #3498DB;
+  border-radius: 10px;
+}
+
+.term-content::-webkit-scrollbar-thumb:hover {
+  background: #2572a5;
+}
+
+.signup-btn{
+  margin-top: 80px;
+}

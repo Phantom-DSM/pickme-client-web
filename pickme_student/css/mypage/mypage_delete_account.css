@@ -1,0 +1,41 @@
+.del_detail{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.del_title{
+  width: 100%;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.del_content{
+  font-size: 17px;
+  vertical-align: middle;
+  margin-top: 50px;
+  background-color: #e1e1e1;
+  color: #616161;
+  height: 150px;
+  text-align: center;
+  padding-top: 35px;
+  font-weight: bold;
+}
+
+
+.del_done_btn{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.del_done_btn button{
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 15px;
+  height: 45px;
+  width: 220px;
+  cursor: pointer;
+}
