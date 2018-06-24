@@ -1,0 +1,80 @@
+.company_con{
+  margin-top: 40px !important;
+}
+
+#company_con1 {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  color: 616161;
+}
+
+.company_title {
+  font-weight: bold;
+  font-size: 22px;  
+  padding-left: 300px;
+}
+
+.company_intro_detail {
+  color: #656565;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#company_con2 div {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 300px;
+}
+
+#company_con2 ul li {
+  font-size: 17px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 450px;
+  position: relative;
+}
+
+#company_con2 ul li:nth-child(2n - 1) {
+  background-color: #f4f4f4;
+}
+
+#company_con2 ul li span {
+  position: absolute;
+  left: 300px;
+  font-weight: bold;
+}
+
+#company_con5 .company_title {
+  padding-left: 300px;
+}
+
+.company_talent{
+  padding-left: 300px;
+  font-size: 17px;
+  margin: 20px 0px;
+}
+
+.company_map_div{
+  width: 640px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid #000;
+}
+
+.compant_map_name{
+  padding-left: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.compant_map_address{
+  padding-left: 300px;
+  font-size: 17px;
+  margin-top: 5px;
+  
+}

@@ -1,0 +1,93 @@
+.self_dete{
+  width: 600px;
+  margin: 0 auto;
+  text-align: right;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #616161;
+}
+
+.self_con{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.self_title{
+  color: #3498db;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.self_content{
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.clinic_reply_cover {
+  margin: 80px 0px;
+}
+
+.clinic_reply {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.clinic_reply::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clinic_teacher {
+  width: 100px;
+  height: 120px;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.clinic_photo_cover {
+  width: 100px;
+  height: 80px;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.clinic_photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #3498DB;
+}
+
+.clinic_reply_content {
+  background-color: #fafafa;
+  width: auto;
+  margin-left: 100px;
+  padding: 20px 40px;
+  font-size: 17px;
+  min-height: 120px;
+  border-radius: 10px;
+}
+
+.clinic_btn_cover {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: right;
+}
+
+.clinic_btn {
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3790CC;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: none;
+}
